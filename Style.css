@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background: papayawhip;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navigation a{
+text-decoration: none;
+color: black;
+padding: 6px 15px;
+border-radius: 20px;
+margin: 0 10px;
+font-weight: 600;
+}
+.navigation a:hover,
+.navigation a.active
+{
+    background: #359381;
+    color: #fff;
+}
+/****************articles*************************/
+.articles-sidebar{
+    display: flex;
+}
+
+.top-articles{
+    display: flex;
+}
+.bottom-articles{
+    display: flex;
+    margin-top: 0.9em;
+}
+#first{
+    border: 1px solid red;
+    width: 20em;
+    height: 12em;
+    margin-left: 1em;
+}
+#first img{
+    width: 100px;
+    height: 70px;
+}
+#first p{
+    font-size: 10px;
+}
+/***************sidebar*******************/
+.sidebar{
+    border: 1px solid blue;
+    height: 25em;
+    width: 37em;
+    margin-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.article-container{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap:wrap;
+}
+.article-box{
+    width: 350px;
+    border: 1px solid black;
+    
+}
+.article-img{
+    width: 50%;
+  
+}
+.article-img img{
+    width:40%;
+    height:40%;
+    object-fit: cover;
+        object-position: center;
+}
+.article-text{
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+}
+.article-text span{
+    color:blanchedalmond;
+    font-size: 0.9rem
+}
+.article-text .article-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:green;
+}
+.article-text .article-title:hover{
+    color:red;
+    transition: all ease 0.3s;
+}
+.article-text p{
+color:black;
+font-size: 0.9rem;
+display:-webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 20px 0px;
+}*/
