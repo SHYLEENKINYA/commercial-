@@ -5,17 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <link rel="stylesheet" href="Style.css" />
 </head>
 <body>
     <header>
-        <img class="fav" src="Faviconn.jpg" width="10%" height="10%" alt="Favicon">
+        <a href="index.html">
+            <img class="imgg" src="Faaviconn.jpg" alt="" style="border-radius: 20px;" width="100px" height="90px" </a>
+            <br>
+            <br>
+        <h1 class="title">COFFEE BEAN</h1>
+        
         <nav class="navigation">
             <a href="index.html" >Home</a>
             <a href="About.html">About</a>
             <a href="Infor.html" class="active">Information</a>
             <a href="Contact.html">Contact</a>
-    
         </nav>
     </header>
+    <br>
+    <br>
+    <h5>
+        Please Input Your Details
+    </h5>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+    
+            <h1>Person Details</h1>
+            <br>
+            Salutation <select>
+                <option>MR </option>
+                <option>Mrs </option>
+                <option>Miss </option>
+            </select>
+            <br>
+            <br>
+            FirstName: <input type="text" name="Name" /></input>
+            <br>
+            <br>
+            LastName: <input type="text" name="Name" /></input>
+            <br>
+            <br>
+            Gender: <input type="radio" name="radio Button"> Male </input>
+            <input type="radio" name="radio Button"> Female </input>
+            <br>
+            <br>
+            DOB: <input type="date" name="Date" />
+            <br>
+            <br>
+            Email: <input type="email" name="Email" width="20em"  />
+            <br>
+            <br>
+            Description: <textarea row="5" cols="50"></textarea>
+            <br>
+            <br>
+            <h5>Do you wish to get notification via email</h5>
+            <input type="checkbox" name="checkbox" />
+            Yes </input>
+            <input type="checkbox" name="checkbox" />
+            No </input>
+            <br>
+            <br>
+            <input type="Submit" name="submit" />
+    
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>

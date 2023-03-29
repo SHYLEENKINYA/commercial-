@@ -20,6 +20,23 @@ header{
     align-items: center;
     z-index: 100;
 }
+.imgg{
+    margin: 1em;
+}
+.title{
+    
+    color: transparent;
+    background-image: linear-gradient(black, brown);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
 .navigation a{
 text-decoration: none;
 color: black;
@@ -34,6 +51,10 @@ font-weight: 600;
     background: #359381;
     color: #fff;
 }
+.w3-content w3-section{
+    margin-left: 1em;
+    padding: 1em;
+}
 /****************articles*************************/
 .articles-sidebar{
     display: flex;
@@ -41,32 +62,58 @@ font-weight: 600;
 
 .top-articles{
     display: flex;
+    margin:1em;
 }
 .bottom-articles{
     display: flex;
+    margin:1em;
     margin-top: 0.9em;
 }
 #first{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 20em;
-    height: 12em;
+    height: 14em;
     margin-left: 1em;
 }
 #first img{
     width: 100px;
-    height: 70px;
+    height: 90px;
 }
 #first p{
-    font-size: 10px;
+    font-size: 15px;
+    font-family: poppin;
 }
 /***************sidebar*******************/
 .sidebar{
-    border: 1px solid blue;
-    height: 25em;
+    border: 1px solid rgb(0, 0, 0);
+    margin:1em;
+    height: 29em;
     width: 37em;
     margin-left: 1em;
 }
-
+/**********About Articles************/
+#firstt{
+    border: 0px solid red;
+        width: 40em;
+        height: 28em;
+        margin-left: 1em;
+}
+#firstt img{
+    width: 100px;
+        height: 90px;
+}
+.para{
+    border: 0px solid black;
+    width:60em;
+        height: 6em;
+        margin-left: 1em; ;
+}
+#conta{
+border: px solid red;
+    width: 40em;
+    height: 28em;
+    margin-left: 1em;
+}
 
 
 
